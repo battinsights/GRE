@@ -1,0 +1,18 @@
+{
+  "name": "GRE with Nanda",
+  "short_name": "GRE Nanda",
+  "description": "Personal GRE Verbal prep — vocabulary, practice, and progress tracking",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#FFF8F0",
+  "theme_color": "#4A7C6F",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%234A7C6F'/><text x='50' y='62' text-anchor='middle' font-size='42' font-family='Georgia,serif' fill='white' font-weight='bold'>GRE</text><text x='50' y='82' text-anchor='middle' font-size='16' font-family='sans-serif' fill='%23E8985E' font-weight='600'>NANDA</text></svg>",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
