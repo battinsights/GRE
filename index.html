@@ -789,8 +789,11 @@
 <script src="js/vocab-data-16.js"></script>
 <script src="js/vocab-concat.js"></script>
 <script src="js/tc-data.js"></script>
+<script src="js/tc-data-2.js"></script>
 <script src="js/se-data.js"></script>
+<script src="js/se-data-2.js"></script>
 <script src="js/rc-data.js"></script>
+<script src="js/rc-data-2.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore-compat.js"></script>
 
@@ -798,6 +801,11 @@
 // =====================================================
 // GRE WITH NANDA — Core Application
 // =====================================================
+
+// ---- MERGE QUESTION DATA ----
+if (typeof TC_DATA_2 !== 'undefined') TC_DATA.push(...TC_DATA_2);
+if (typeof SE_DATA_2 !== 'undefined') SE_DATA.push(...SE_DATA_2);
+if (typeof RC_DATA_2 !== 'undefined') RC_DATA.push(...RC_DATA_2);
 
 // ---- FIREBASE CONFIG ----
 let FIREBASE_ENABLED = false;

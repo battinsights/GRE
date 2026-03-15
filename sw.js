@@ -1,4 +1,4 @@
-const CACHE_NAME = 'gre-nanda-v6';
+const CACHE_NAME = 'gre-nanda-v7';
 const ASSETS = [
   './',
   './index.html',
@@ -22,8 +22,11 @@ const ASSETS = [
   './js/vocab-data-16.js',
   './js/vocab-concat.js',
   './js/tc-data.js',
+  './js/tc-data-2.js',
   './js/se-data.js',
-  './js/rc-data.js'
+  './js/se-data-2.js',
+  './js/rc-data.js',
+  './js/rc-data-2.js'
 ];
 
 self.addEventListener('install', e => {
