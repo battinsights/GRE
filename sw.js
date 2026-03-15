@@ -1,4 +1,4 @@
-const CACHE_NAME = 'gre-nanda-v4';
+const CACHE_NAME = 'gre-nanda-v6';
 const ASSETS = [
   './',
   './index.html',
@@ -15,6 +15,11 @@ const ASSETS = [
   './js/vocab-data-9.js',
   './js/vocab-data-10.js',
   './js/vocab-data-11.js',
+  './js/vocab-data-12.js',
+  './js/vocab-data-13.js',
+  './js/vocab-data-14.js',
+  './js/vocab-data-15.js',
+  './js/vocab-data-16.js',
   './js/vocab-concat.js',
   './js/tc-data.js',
   './js/se-data.js',
